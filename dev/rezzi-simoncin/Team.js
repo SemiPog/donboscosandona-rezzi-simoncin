@@ -1,15 +1,25 @@
 import Grid from '@mui/material/Grid'
+import Box from '@mui/material/Box'
 import Container from '@mui/material/Container'
-import maxWidth from '@mui/system'
+import Link from '@mui/material/Link'
+import Typography from '@mui/material/Typography'
 
-export default function MyCarousel(members,) {
-    <Grid>
-        <Container maxWidth={maxWidth}>
-            <div style={{ marginTop: '5px', color: '#494949' }}>
-
-                
-            </div>
-
-        </Container>
-    </Grid>
+export default function Team() {
+    return (
+        <center>
+            <h2>Our Awesome Team 1</h2>
+            <br />
+            <p>
+                This is the paragraph where you can write more details about your team. Keep you user engaged by providing meaningful information.
+            </p>
+        </center>
+        <Grid>
+        {
+        members.map(
+            (member) => (
+                gay
+            )
+        )
+       }
+    )
 }
