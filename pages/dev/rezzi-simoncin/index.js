@@ -39,8 +39,6 @@ let members = [
   }
 ]
 
-
-
 export default function Home() {
   return (
     <Team
