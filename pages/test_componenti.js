@@ -199,7 +199,7 @@ export default function Home({ datiArticoli }) {
     <Layout>
       <LandingHero
         opacity={0.5}
-        title="Progetto educativo"
+        title="Progetto eeducativo"
         description="Diventa adulto con il metodo educativo di don Bosco preparandoti ad entrare a testa alta nel mondo professionale di domani!"
         buttonUrl="j"
         buttonText="Guarda il video"
