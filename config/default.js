@@ -8,7 +8,7 @@ export const siteDescription = "Sito ufficiale del Centro di Formazione Professi
 export const menu = [
     { title: 'Chi siamo', url: '/chi-siamo' },
     { title: 'Contatti', url: '/contatti' },
-    { title: 'Dove siamo', url: '/dove-siamo' },
+    { title: 'Dove siamo', url: '/dovesiamo.js' },
     { title: 'Privacy', url: '/privacy' },
     { title: 'Trasparenza', url: '/trasparenza' },
 ]

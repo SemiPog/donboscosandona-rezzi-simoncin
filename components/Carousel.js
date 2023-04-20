@@ -54,7 +54,7 @@ export default function MyCarousel({ slides, maxWidth, height }) {
                                         bottom: 0,
                                         right: 0,
                                         left: 0,
-                                        backdropFilter: "blur(" + slide.blur +")",
+                                      
                                     }}
                                 />
                                 <Container maxWidth="lg">
