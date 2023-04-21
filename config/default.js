@@ -1,22 +1,22 @@
 import Logos from '/components/Logos'
 import Footer from '/components/Footer'
 
-export const siteName = "CFP DON BOSCO"
-export const siteTitle = "CFP DON BOSCO - San Donà di Piave"
-export const siteDescription = "Sito ufficiale del Centro di Formazione Professionale don Bosco di San Donà di Piave"
+export const siteName = "Dreams Island"
+export const siteTitle = "Dreams Island - La Sueños Locos S.A"
+export const siteDescription = ""
 
 export const menu = [
+    { title: 'Home', url: '/' },
     { title: 'Chi siamo', url: '/chi-siamo' },
-    { title: 'Contatti', url: '/contatti' },
-    { title: 'Dove siamo', url: '/dovesiamo.js' },
-    { title: 'Privacy', url: '/privacy' },
-    { title: 'Trasparenza', url: '/trasparenza' },
+    { title: 'Dove siamo', url: '/dove-siamo' },
+    
 ]
 
 export const header = <Logos
     logoUrl="https://archive.donboscosandona.it/img/ck/96448406eee9201111c084f9f70330b052012ac5.png"
     sponsorUrl="https://archive.donboscosandona.it/img/ck/20b01b69c5c5586ea921a398e557a7767d004959.png"
     color="#FFFFFF"
+    
 />
 
 const menuFooter = [
@@ -38,6 +38,7 @@ let images = [
     { title: '', imageUrl: 'https://source.unsplash.com/random', },
     { title: '', imageUrl: 'https://source.unsplash.com/random', },
     { title: '', imageUrl: 'https://source.unsplash.com/random', },
+    
 ]
 
 export const footer = <Footer
@@ -46,8 +47,7 @@ export const footer = <Footer
     opacitycolor="1"
     opacity={1}
     title1="About Us"
-    description1="Footer che apparirà sul fondo di tutte le pagine del sito. Sarà possibile passare al componente un'immagine di sfondo opzionale oppure un colore di sfondo. L'attributo opaciy permetterà di sovrapporre all'immagine un Box con il colore di sfondo e un'opacità regolabile.
-La prima colonna sarà destinata a un testo descrittivo, la seconda ai social, la terza a un menù di navigazione grafico (che porta ad es. ai settori).
+    description1="Il nostro parco acquatico di lusso ti accoglie per un'esperienza indimenticabile in un'oasi di divertimento. Rilassati in piscina su comodi cuscini e gustati un'insalata di frutta fresca al nostro bar, oppure affronta l'emozione delle nostre attrazioni adrenaliniche. Con il nostro servizio ineguagliabile, le tue vacanze non potranno che essere indimenticabili.
 "
     title2="Social Feed"
     socials={socials}

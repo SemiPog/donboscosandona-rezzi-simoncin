@@ -8,11 +8,12 @@ import styles from 'components/LandingHero2.module.css'
 import Toolbar from '@mui/material/Toolbar'
 import Container from '@mui/material/Container'
 
+
 import { siteName, menu } from '/config/default'
 
 export default function LandingHero(props) {
     return (
-        <Container
+        <Container 
             maxWidth
             disableGutters={true}
             sx={{
@@ -45,8 +46,10 @@ export default function LandingHero(props) {
                         backgroundColor: 'rgba(0,0,0,' + props.opacity + ' )',
                     }}
                 />
+
                 <Grid container >
                     <Grid item md={3} xs={8} >
+                    
                         <Box
                             sx={{
                                 position: 'relative',
@@ -55,8 +58,10 @@ export default function LandingHero(props) {
                                 top: 55,
                             }}
                         >
+                            
                             <Typography component="h2" variant="h6" color="inherit" gutterBottom>
                                 {props.siteName}
+                                
                             </Typography>
 
                         </Box>
