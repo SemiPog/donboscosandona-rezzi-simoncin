@@ -14,6 +14,8 @@ export default function Home() {
                 title="Dreams Island - La Sueños Locos S.A. "
                 description=""
                 imageUrl="https://bfwellness.it/wp-content/uploads/2023/03/chisiamo.jpg"
+                lingua="English Traslation"
+                link="/chi-siamo-ing"
             />
             <Paragraph
                 title="La Sueños Locos S.A. "

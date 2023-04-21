@@ -8,8 +8,9 @@ export const siteDescription = ""
 export const menu = [
     { title: 'Home', url: '/' },
     { title: 'Chi siamo', url: '/chi-siamo' },
+    { title: 'Who are we', url: '/chi-siamo-ing'},
     { title: 'Dove siamo', url: '/dove-siamo' },
-    
+    { title: 'Where are we', url: '/dove-siamo-ing'}
 ]
 
 export const header = <Logos
@@ -20,10 +21,7 @@ export const header = <Logos
 />
 
 const menuFooter = [
-    { title: 'Informatico', url: '/informatico' },
-    { title: 'Energie', url: '/energie' },
-    { title: 'Elettrico', url: '/elettrico' },
-    { title: 'Trasparenza', url: '/trasparenza' },
+
 ]
 
 const socials = [
@@ -34,11 +32,10 @@ const socials = [
 ]
 
 let images = [
-    { title: '', imageUrl: 'https://source.unsplash.com/random', },
-    { title: '', imageUrl: 'https://source.unsplash.com/random', },
-    { title: '', imageUrl: 'https://source.unsplash.com/random', },
-    { title: '', imageUrl: 'https://source.unsplash.com/random', },
-    
+    { title: '', imageUrl: 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/nun-spa-ph-spezia-13-1658350322.jpg?crop=1xw:0.75xh;center,top&resize=1200:*', },
+    { title: '', imageUrl: 'https://cbcolido.com/site/assets/files/1029/beach-sunset.1200x600.jpg', },
+    { title: '', imageUrl: 'https://www.lagodigardaeventi.it/wp-content/uploads/2021/03/aquapark-caneva.jpeg', },
+
 ]
 
 export const footer = <Footer
@@ -47,11 +44,11 @@ export const footer = <Footer
     opacitycolor="1"
     opacity={1}
     title1="About Us"
-    description1="Il nostro parco acquatico di lusso ti accoglie per un'esperienza indimenticabile in un'oasi di divertimento. Rilassati in piscina su comodi cuscini e gustati un'insalata di frutta fresca al nostro bar, oppure affronta l'emozione delle nostre attrazioni adrenaliniche. Con il nostro servizio ineguagliabile, le tue vacanze non potranno che essere indimenticabili.
+    description1="Il nostro parco acquatico di lusso ti accoglie per un'esperienza indimenticabile in un'oasi di divertimento. Rilassati in piscina su comodi cuscini e gustati un'insalata di frutta fresca al nostro bar, oppure affronta l'emozione delle nostre attrazioni adrenaliniche o avvera i tuoi sogni più remoti! Con il nostro servizio ineguagliabile, le tue vacanze non potranno che essere indimenticabili.
 "
     title2="Social Feed"
     socials={socials}
-    title3="I Settori"
+    title3=""
     images={images}
     menu={menuFooter}
     copyright="Copyright (C) 2023 9dreams Agency."

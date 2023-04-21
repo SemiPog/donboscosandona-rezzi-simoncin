@@ -11,15 +11,15 @@ export default function Home() {
         <Layout>
             <LandingHero
                 opacity={0.2}
-                title="Pacchetto Base"
+                title="Base Plan"
                 description=""
                 imageUrl="https://www.fraseryachts.com/uploads/image/yachts/mini-k/Palumbo_yacht_for_charter_Mini-k_17594.jpg"
-                lingua="English Traslation"
-                link="/pacchetto-base-ing"
+                lingua="Traduzione in Italiano"
+                link="/pacchetto-base"
             />
             <Paragraph
-                title="Pacchetto base"
-                subtitle="Con il pacchetto base, verrete trasportati nella nostra isola con uno mini yacht."
+                title="Base Plan"
+                subtitle="With the basic package, you will be transported to our island on a mini yacht."
                 backgroundImageUrl="https://i.ytimg.com/vi/fc_yDzLjoMk/maxresdefault.jpg"
                 backgroundColor="#FFFFFF"
                 opacity={0.5}
@@ -29,7 +29,7 @@ export default function Home() {
                 maxWidth="lg"
                 sx={{}}
             >
-                Il Pacchetto Base ti permette di sbloccare tutte le opzioni meno costose, ma comunque ti forniamo tutto il necessario per godere dell'acquapark. Con il Pacchetto Base, potrai accedere a tutte le attrazioni dell'acquapark, dalla più tranquilla alla più emozionante. Potrai godere di una vasta gamma di piscine, scivoli d'acqua e molti giochi acquatici! Inoltre ci sarà il nostro Staff che sarà sempre contento di aiutarvi. Con questo pacchetto <strong>NON</strong> si potrà saltare la coda, quindi si dovrà aspettare il proprio turno.
+                The Basic Package allows you to unlock all the less expensive options, but we still provide you with everything you need to enjoy the water park. With the Basic Package, you'll be able to access all the water park attractions, from the most relaxing to the most exciting. You'll enjoy a wide range of pools, water slides, and many water games! Additionally, our staff will always be happy to help you. With this package, you <strong>CANNOT</strong> skip the line, so you'll have to wait for your turn.
             </Paragraph>
         </Layout>
     )

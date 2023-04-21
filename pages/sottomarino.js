@@ -14,6 +14,8 @@ export default function Home() {
                 title="Scopri il mondo sottomarino con i nostri mini sommergibili!"
                 description=""
                 imageUrl="https://www.unicoebello.it/wp-content/uploads/2020/08/Pedal-Powered-Designs-2.jpg"
+                lingua="English Traslation"
+                link="/sottomarino-ing"
             />
             <Paragraph
                 title="Listino prezzi"

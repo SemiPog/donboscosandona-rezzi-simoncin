@@ -11,10 +11,10 @@ import Footer from '/components/Footer'
 
 
 export default function Home() {
-  
+
   return (
     <Layout>
-     
+
       <Paragraph
         title="Raggiungici in elicottero!"
         subtitle=""
@@ -33,15 +33,15 @@ export default function Home() {
         subtitle=""
         rightImageUrl="https://www.nauticaideaverde.it/wp-content/uploads/2021/02/barca-cabinata.jpg"
       >
-        Se state pianificando una vacanza rilassante su un'isola remota, il modo migliore per arrivarci potrebbe essere la barca. Non solo avrete la possibilità di ammirare magnifici panorami lungo il tragitto, ma anche di godere dell'acqua cristallina e del sole.
+        If you are planning a relaxing vacation on a remote island, the best way to get there may be by boat. Not only will you have the opportunity to admire magnificent views along the way, but also enjoy crystal clear water and sunshine.
 
-        Il primo passo per arrivare all'isola con la barca è fare una ricognizione dei porti e degli ormeggi vicino alla destinazione. Una volta individuati gli ormeggi più vicini, potrete poi valutare la distanza tra il porto di partenza e l'isola, in base alle vostre esigenze di tempo e budget.
+        The first step in getting to the island by boat is to survey the ports and moorings near the destination. Once you have identified the nearest moorings, you can then evaluate the distance between the starting port and the island, based on your time and budget requirements.
 
-        Dopo aver individuato la compagnia di noleggio, assicuratevi di controllare le attrezzature di sicurezza, come giubbotti salvagente e kit di primo soccorso, per garantire che la vostra avventura a bordo sia sempre sicura.
+        After identifying the rental company, make sure to check the safety equipment, such as life jackets and first aid kits, to ensure that your adventure on board is always safe.
 
-        Una volta saliti a bordo, assicuratevi di seguire le istruzioni del personale addetto alla barca sui protocolli di sicurezza e sulla mappa per raggiungere la destinazione. Durante la navigazione, è importante restare vigili e osservare il mare per evitare eventuali pericoli.
+        Once on board, make sure to follow the instructions of the boat personnel regarding safety protocols and the map to reach the destination. During navigation, it is important to remain vigilant and observe the sea to avoid any potential dangers.
 
-        Alla fine del viaggio, potrete godere della bellezza dell'isola remota e celebrare l'arrivo a terraferma. La barca può essere una scelta ideale per coloro che vogliono sperimentare un nuovo modo di viaggiare e godere di posti meravigliosi in modo diverso. Ricordate sempre di rispettare la natura e l'ambiente circostante durante il vostro soggiorno sull'isola.
+        At the end of the journey, you can enjoy the beauty of the remote island and celebrate your arrival on land. The boat can be an ideal choice for those who want to experience a new way of traveling and enjoy wonderful places in a different way. Always remember to respect nature and the environment during your stay on the island.
 
       </Paragraph>
       <Paragraph

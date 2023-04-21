@@ -1,5 +1,6 @@
 import * as React from 'react';
 
+
 import Layout from '/components/Layout';
 import Paragraph from 'components/Paragraph';
 import LandingHero from '/components/LandingHero2'
@@ -16,6 +17,9 @@ import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import { Link } from '@mui/material';
 import Testimonials from '/components/Testimonials';
+import TextField from '@mui/material/TextField';
+import Autocomplete from '@mui/material/Autocomplete';
+
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -28,7 +32,7 @@ const Item = styled(Paper)(({ theme }) => ({
 let menu = [
   { title: 'Ciao', url: 'https://www.parchionline.it/parchionline_images/parco-acquatico-images/acquapark-images/jpg/mirabilandia-beach-parco-acquatico-mirabilandia.jpg' },
   { title: '' }
-]
+];
 
 let testimonials = [
   {
@@ -74,15 +78,23 @@ let prodotti = [
     description:
       "Questo piano offre la possibilità di richiedere fino a 5 ombrelloni e 5 sdraio da situare nella parte dell'isola che si vuole, in oltre vengono dati 2 armadietti dove lasciare i propi oggetti mentre ci si riposa nella lusuosa spa, c'è anche la possibilità di saltare le code per gli scivoli. ",
     immagineUrl: "https://www.grazia.it/content/uploads/2019/12/migliori-spa-roma-2022-02.jpg ",
-    url: "",
+    url: "/pacchetto-avanzato",
+  },
+  {
+    title: "Pacchetto Sogno",
+    category: "5000€",
+    description:
+      "A lucid dream is an unforgettable experience for those who seek to explore their subconscious, immersing themselves in dream worlds and experiencing the thrill of daydreaming. Let your imagination run wild and enjoy the peace and serenity of a place made just for you, with attentive staff providing everything you could ever need.",
+    immagineUrl: "https://romoletto.altervista.org/wp-content/uploads/2019/10/Isola-isole-Interpretazione-dei-sogni.jpg ",
+    url: "/sogno",
   },
 ];
 
 let slides = [
   {
-    titolo: "Goditi i nostri scivoli al chiuso",
+    titolo: "",
     descrizione:
-      "Vieni a scoprire i nostri scivoli al chiuso, disponibili solo con il pacchetto medio!",
+      "",
     immagine:
       "https://www.quellenhof.it/%28cms%29/media/resize/size=1920x1080%2Cscale=crop%2Cinterlace=1%2Cquality=70/1719722",
     colore: "",
@@ -90,9 +102,9 @@ let slides = [
     blur: "0.1rem",
   },
   {
-    titolo: "Fatti un bel giro",
+    titolo: "",
     descrizione:
-      "Scopri tutti i segreti del nostro Centro con il tour virtuale!",
+      "",
     immagine:
       "https://images.alphacoders.com/475/thumb-1920-475967.jpg",
     colore: "",
@@ -100,19 +112,19 @@ let slides = [
     blur: "0.1rem",
   },
   {
-    titolo: "Fatti un bel giro",
+    titolo: "",
     descrizione:
-      "Scopri tutti i segreti del nostro Centro con il tour virtuale!",
+      "",
     immagine:
-      "https://www.parco-divertimenti-roma.it/wp-content/uploads/2020/11/parchi-acquatici.jpg",
+      "https://neonhub.com.au/wp-content/uploads/2021/09/Cocktails-Dreams.jpg",
     colore: "",
     opacity: 3,
     blur: "0.1rem",
   },
   {
-    titolo: "Fatti un bel girooooo",
+    titolo: "",
     descrizione:
-      "Scopri tutti i segreti del nostro Centro con il tour virtuale!",
+      "",
     immagine:
       "https://www.immobilisantandrea.it/media2/news/IT/piscine_di_lusso_interne_esterne.jpg",
     colore: "",
@@ -121,9 +133,9 @@ let slides = [
 
   },
   {
-    titolo: "Fatti un bel giro",
+    titolo: "",
     descrizione:
-      "Scopri tutti i segreti del nostro Centro con il tour virtuale!",
+      "",
     immagine:
       "https://www.aquathermeroma.it/files-sbbasic/sr_aquathermeroma_it/logo/aquatherme_the_building_spa_romespa_033.jpg",
     colore: "",
@@ -142,12 +154,14 @@ export default function Home() {
         description="
         "
         imageUrl="https://static.secureholiday.net/static/CMS/photos/000/023/000023989.jpg?format=webp"
+        lingua="English Traslation"
+        link="/home-ing"
       />
 
       <Products
         title="Costo Entrata "
         description="Qui troverai tutti i costi per entrate nel nostro parco acquatico!"
-        cardWidth={4}
+        cardWidth={6}
         products={prodotti}
       />
 
@@ -163,14 +177,14 @@ export default function Home() {
               blur="0.3rem"
               color="white"
               title="Pool Party "
-              subtitle="dal 20 Giugno fino al 15 Agosto!"
+              subtitle="Dal 20 Giugno fino al 15 Agosto!"
               columnCount={1}
             >
               Vi presentiamo il nostro Pool Party per giovani, una festa indimenticabile per ballare, rilassarsi e divertirsi in compagnia!
 
               Immergetevi nella nostra piscina con l'acqua cristallina e lasciatevi coccolare dal caldo sole estivo. Musica, animazione e giochi renderanno la vostra giornata unica e irripetibile. Sfoggiate i vostri costumi più divertenti e originali e divertitevi con le mille attività che abbiamo preparato per voi!
 
-              Non mancheranno le bevande fresche e i bocconi sfiziosi per tenervi carichi di energia e farvi ballare fino al tramonto. Non perdete l'opportunità di fare nuove amicizie e vivere insieme una giornata all'insegna del divertimento.<br/><br/><br/><br/>
+              Non mancheranno le bevande fresche e i bocconi sfiziosi per tenervi carichi di energia e farvi ballare fino al tramonto. Non perdete l'opportunità di fare nuove amicizie e vivere insieme una giornata all'insegna del divertimento.<br /><br /><br /><br />
             </Paragraph>
           </Item>
         </Grid>
@@ -186,8 +200,8 @@ export default function Home() {
               subtitle="Su prenotazione tutta l'estate!"
               columnCount={1}
             >
-              Vieni a scoprire un'esperienza indimenticabile tra le meraviglie del mare! Con i nostri mini sommergibili, potrai esplorare le profondità marine e ammirare la bellezza delle creature sottomarine in modo comodo e sicuro. Che tu sia un appassionato del mare o semplicemente alla ricerca di una nuova avventura, questa attività estiva è perfetta per te! Non perdere l'occasione di vivere un'esperienza unica e indimenticabile.<br /> <br /> <br/>
-              <Link href="/sottomarino"><Button variant="contained" color="success"> Scopri di più sui costi! </Button></Link>
+              Vieni a scoprire un'esperienza indimenticabile tra le meraviglie del mare! Con i nostri mini sommergibili, potrai esplorare le profondità marine e ammirare la bellezza delle creature sottomarine in modo comodo e sicuro. Che tu sia un appassionato del mare o semplicemente alla ricerca di una nuova avventura, questa attività estiva è perfetta per te! Non perdere l'occasione di vivere un'esperienza unica e indimenticabile.<br /> <br /> <br />
+              <Link href="/sottomarino"><Button variant="contained" color="success">Scopri di più sui costi!</Button></Link>
             </Paragraph>
           </Item>
         </Grid>

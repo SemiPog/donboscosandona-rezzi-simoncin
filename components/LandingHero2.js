@@ -2,18 +2,19 @@ import Grid from '@mui/material/Grid'
 import Typography from '@mui/material/Typography'
 import Box from '@mui/material/Box'
 import Button from '@mui/material/Button'
-import Link from 'next/link'
+import { Link } from '@mui/material'
 import Paper from '@mui/material/Paper'
 import styles from 'components/LandingHero2.module.css'
 import Toolbar from '@mui/material/Toolbar'
 import Container from '@mui/material/Container'
+import TranslateOutlinedIcon from '@mui/icons-material/TranslateOutlined';
 
 
-import { siteName, menu } from '/config/default'
+import { siteName, menu, menuing } from '/config/default'
 
 export default function LandingHero(props) {
     return (
-        <Container 
+        <Container
             maxWidth
             disableGutters={true}
             sx={{
@@ -49,7 +50,13 @@ export default function LandingHero(props) {
 
                 <Grid container >
                     <Grid item md={3} xs={8} >
-                    
+                        <Button sx={{
+                            backgroundColor: "white"
+                        }}>
+                            <Link href={props.link} underline="none">
+                            <TranslateOutlinedIcon/> {props.lingua}
+                            </Link>
+                        </Button>
                         <Box
                             sx={{
                                 position: 'relative',
@@ -58,10 +65,10 @@ export default function LandingHero(props) {
                                 top: 55,
                             }}
                         >
-                            
+
                             <Typography component="h2" variant="h6" color="inherit" gutterBottom>
                                 {props.siteName}
-                                
+
                             </Typography>
 
                         </Box>

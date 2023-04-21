@@ -14,6 +14,8 @@ export default function Home() {
                 title="Pacchetto Medio"
                 description=""
                 imageUrl="https://www.fraseryachts.com/uploads/image/yachts/mini-k/Palumbo_yacht_for_charter_Mini-k_17594.jpg"
+                lingua="English Traslation"
+                link="/pacchetto-medio-ing"
             />
             <Paragraph
                 title="Pacchetto Medio"
@@ -31,7 +33,6 @@ export default function Home() {
                 Uno dei vantaggi più apprezzati è la possibilità di saltare la fila e goderti subito i divertimenti, con attrazioni adatte a tutte le età. L'acquapark non é solo divertimento, ma offre anche relax e benessere, grazie alla presenza di ristoranti lussuosi, spa e centri relax, dove potrai rigenerare corpo e anima.
                 Se vuoi arrivare sull'isola in grande stile, ti sarà possibile farlo a bordo di uno yacht o su un Pilatus PC-6. Questo renderà il tuo viaggio ancor più esclusivo e indimenticabile.
                 In poche parole, il pacchetto medio per l'acquapark è un'esperienza completa, che ti farà dimenticare lo stress quotidiano, regalandoti momenti di assoluto divertimento e relax.
-                Inoltre, nel mentre che verrete trasportati nell'isola
             </Paragraph>
         </Layout>
     )
